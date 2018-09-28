@@ -2,13 +2,14 @@ Resident income and employment analysis based on Hadoop MapReduce and Spark Scal
 ====
 
 ## Employment analysis in China
+
 #### china_employment/src/Top_K
 #### Used MapReduce on Hadoop to analyze the employment of residents in different countries with raw data from HDFS:
 * data source: china_employment/china_employ.txt(generate from original csv in income_analysis/data/survey_results_schema.csv
 * First use word count to count the number of every type of employment in China
 * Then use sorting function in MapReduce to compute the Top K heat employment type in China.
 
-## other code in china_employment/src is some sample in MapReduce
+#### other code in china_employment/src is some sample in MapReduce
 
 
 ## Resident income analysis
